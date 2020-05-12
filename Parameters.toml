@@ -1,0 +1,69 @@
+# Holds biophysical constants, from literature -
+[mass_of_single_ecoli_cell]
+value=4.3e-13
+units="g"
+source="BIND:106437"
+
+[fraction_of_water_ecoli_cell]
+value=0.70
+units="fraction"
+source="BIND:100044"
+
+[average_RNAP_copy_number_ecoli_cell]
+value=4600
+units="copies per cell"
+source="BIND:108601"
+
+[fraction_RNAP_active_ecoli_cell]
+value=0.50
+units="fraction"
+source="BIND:110044"
+
+[RNAP_elongation_rate_ecoli_cell]
+value=62
+units="nt/s"
+source="BIND:103021"
+note="Converted from kb/min"
+
+[length_lacZ_gene]
+value=3075
+units="nt"
+source="BIND:102070"
+
+[intercept_initiation_experiment]
+value=400.0
+units="sec"
+source="PMID:6160577"
+note="Use the lacZ value in Table 2"
+
+[slope_initiation_exepriment]
+value=27.0
+units="muM/s"
+source="PMID:6160577"
+note="Adjusted starting from D promoter value to bring simulation in-line with data"
+
+[volume_of_ecoli_cell]
+value=1.1
+units="mum^3"
+source="BIND:100004"
+
+# Holds constants from the problem -
+[lacZ_copy_number]
+value=2
+units="copies per cell"
+source=""
+
+[ecoli_doubling_time]
+value=40
+units="min"
+source=""
+
+[mRNA_half_life]
+value=5
+units="min"
+source=""
+
+[gene_charateristic_length]
+value=1000
+units="nt"
+source=""
